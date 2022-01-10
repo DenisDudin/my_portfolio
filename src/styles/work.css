@@ -1,0 +1,58 @@
+.work_content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.work_title h2:before {
+  background: #000;
+}
+
+.work_box {
+  margin: 10px;
+  text-align: center;
+  transition: 0.5s;
+
+  position: relative;
+  width: 256px;
+  height: 256px;
+}
+
+.work_image,
+.work_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.work_image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.work_text {
+  background: #000;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.work_text {
+  opacity: 0.5;
+}
+
+.work_text h3{
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
