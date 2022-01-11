@@ -6,6 +6,7 @@
   height: 50px;
   background-color: black;
   cursor: pointer;
+  border-radius: 7px;
   z-index: 100;
 }
 

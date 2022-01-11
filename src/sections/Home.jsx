@@ -1,7 +1,7 @@
 import photo from '../img/photo.jpg';
-import facebook from '../img/facebook-64.png';
-import instagram from '../img/instagram-64.png';
-import linkedin from '../img/linkedin-64.png';
+import vk from '../img/vk.svg';
+import telegram from '../img/telegram.svg';
+import linkedin from '../img/linkedin.svg';
 import {SocialNetwork} from '../components/SocialNetwork'
 
 function Home() {
@@ -32,17 +32,9 @@ function Home() {
           </a>
         </div>
         <ul className="home_social">
-          <li>
-            <a href="#">
-              <img src={linkedin} />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src={facebook} />
-            </a>
-          </li>
-          <SocialNetwork />
+          <SocialNetwork social_image={linkedin}/>
+          <SocialNetwork social_image={vk}/>
+          <SocialNetwork social_image={telegram}/>
         </ul>
       </div>
     </section>
