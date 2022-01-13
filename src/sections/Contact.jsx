@@ -1,3 +1,6 @@
+import { PriceSlider } from "../components/PriceSlider"
+import { BtnSend } from "../components/BtnSend"
+
 function Contact() {
   return <section className="contact" id="contact">
     <div className="contact_title title white">
@@ -28,7 +31,13 @@ function Contact() {
       </div>
       <div className="contact_row">
         <div className="contact_col100">
-          <input type="submit" value="Send"/>
+          <PriceSlider />
+        </div>
+      </div>
+      <div className="contact_row">
+        <div className="contact_col100">
+          {/* <input type="submit" value="Send"/> */}
+          {/* <BtnSend /> */}
         </div>
       </div>
     </form>

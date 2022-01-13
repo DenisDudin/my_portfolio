@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&display=swap");
 @import './styles/toggle.css';
 @import './styles/home.css';
 @import './styles/menu.css';
 @import './styles/about.css';
-@import './styles/experience.css';
+@import './scss/experience.css';
 @import './styles/work.css';
 @import './styles/contact.css';
 @import './styles/footer.css';
@@ -13,7 +13,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   scroll-behavior: smooth;
 }
 
