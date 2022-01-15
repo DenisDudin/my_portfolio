@@ -60,6 +60,12 @@
   cursor: pointer;
 }
 
+.contact_send {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 991px) {
     .contact_form {
       width: 100%;

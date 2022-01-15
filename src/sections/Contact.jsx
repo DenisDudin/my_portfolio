@@ -29,16 +29,13 @@ function Contact() {
           <textarea placeholder="Message"></textarea>
         </div>
       </div>
-      <div className="contact_row">
+      {/* <div className="contact_row">
         <div className="contact_col100">
           <PriceSlider />
         </div>
-      </div>
-      <div className="contact_row">
-        <div className="contact_col100">
-          {/* <input type="submit" value="Send"/> */}
-          {/* <BtnSend /> */}
-        </div>
+      </div> */}
+      <div className="contact_send">
+        <BtnSend />
       </div>
     </form>
   </section>
