@@ -279,6 +279,11 @@
   animation-delay: 0.75s;
 }
 
+.card:hover .card_social-links div:nth-child(4) {
+  animation: social_animation 2000ms ease-in-out both;
+  animation-delay: 1s;
+}
+
 @keyframes social_animation {
   0% {
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -300, 0, 0, 1);

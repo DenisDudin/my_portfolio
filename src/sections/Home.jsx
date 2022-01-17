@@ -2,6 +2,7 @@ import photo from '../img/photo.jpg';
 import vk from '../img/vk.svg';
 import telegram from '../img/telegram.svg';
 import linkedin from '../img/linkedin.svg';
+import git from '../img/git.svg';
 import {SocialNetwork} from '../components/SocialNetwork'
 
 function Home() {
@@ -14,27 +15,20 @@ function Home() {
         <h5 className="home_logo">My Portfolio</h5>
         <div>
           <h4>
-            <span>Hello!</span> I'm
+            <span>Привет!</span> Меня зовут
           </h4>
-          <h2>Denis Dudin</h2>
-          <h4>I'm a Front End Web Developer</h4>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda
-            velit maxime aut facere alias praesentium ducimus repudiandae
-            doloremque eveniet. Corporis nisi quas doloremque ratione error
-            repellendus cumque delectus vitae eos. Officiis enim id molestiae
-            praesentium non aut! Obcaecati sapiente qui voluptatibus fugit?
-            Laudantium ad odio nostrum recusandae dolor ipsam natus beatae velit
-            dignissimos dolore a voluptatem architecto ipsa, consequatur neque.
-          </p>
-          <a href="#" className="home_btn">
-            About me
+          <h2>Денис Дудин</h2>
+          <h4>Я Junior Frontend - developer</h4>
+          <p>Практикую написание сайтов с использованием React, повышаю доступность и понятность своего кода, изучаю сторонние библиотеки для большей функциональности и анимации элементов на странице. С головой втягиваюсь в работу, которая доставляет мне удовольствие. Умею и готов работать на результат. <br/>В свободное время занимаюсь спортом, люблю почитать или посмотреть интересные фильмы, интересуюсь экономикой.</p>
+          <a href="#about" className="home_btn">
+            Обо мне
           </a>
         </div>
         <ul className="home_social">
           <SocialNetwork social_image={linkedin}/>
           <SocialNetwork social_image={vk}/>
           <SocialNetwork social_image={telegram}/>
+          <SocialNetwork social_image={git}/>
         </ul>
       </div>
     </section>

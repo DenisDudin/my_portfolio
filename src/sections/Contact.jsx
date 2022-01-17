@@ -4,8 +4,8 @@ import { BtnSend } from "../components/BtnSend"
 function Contact() {
   return <section className="contact" id="contact">
     <div className="contact_title title white">
-      <h2>Contact</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus aspernatur reprehenderit, vero dolor vel delectus magnam laudantium modi culpa velit minus!</p>
+      <h2>Контакт</h2>
+      <p>Буду рад обратному отзыву! Можете пригласить как на собеседование, так и просто высказать ваше мнение о моих работах. Все читаю!</p>
     </div>
     <form className="contact_form">
       <div className="contact_row">

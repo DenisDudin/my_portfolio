@@ -1,8 +1,18 @@
+.work{
+  padding-top: 50px;
+  background: #fff;
+}
+
 .work_content {
   display: flex;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
+  margin: 0 4%;
+}
+
+.work_title {
+  margin-bottom: 20px;
 }
 
 .work_title h2:before {
@@ -10,7 +20,7 @@
 }
 
 .work_box {
-  margin: 10px;
+  margin: 20px;
   text-align: center;
   transition: 0.5s;
 

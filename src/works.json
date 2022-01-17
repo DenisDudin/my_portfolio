@@ -1,0 +1,107 @@
+{
+  "project1": {
+    "name": "Кулинарный сайт",
+    "description": "SPA приложение с кулинарными рецептами. ",
+    "time": "",
+    "linkSite": "",
+    "linkCode": "",
+    "technologies": [""]
+  },
+  "project2": {
+    "name": "Игровой магазин",
+    "description": "",
+    "time": "",
+    "linkSite": "",
+    "linkCode": "",
+    "technologies": [""]
+  },
+  "project3": {
+    "name": "Киносайт",
+    "description": "",
+    "time": "",
+    "linkSite": "",
+    "linkCode": "",
+    "technologies": [""]
+  },
+  "project4": {
+    "name": "Кликер",
+    "description": "",
+    "time": "",
+    "linkSite": "",
+    "linkCode": "",
+    "technologies": [""]
+  },
+  "project5": {
+    "name": "Hover board",
+    "description": "",
+    "time": "",
+    "linkSite": "",
+    "linkCode": "",
+    "technologies": [""]
+  },
+  "project6": {
+    "name": "Галерея с фильмами",
+    "description": "",
+    "time": "",
+    "linkSite": "",
+    "linkCode": "",
+    "technologies": [""]
+  },
+  "project7": {
+    "name": "Менеджер задач",
+    "description": "",
+    "time": "",
+    "linkSite": "",
+    "linkCode": "",
+    "technologies": [""]
+  },
+  "project8": {
+    "name": "Галерея",
+    "description": "",
+    "time": "",
+    "linkSite": "",
+    "linkCode": "",
+    "technologies": [""]
+  },
+  "project9": {
+    "name": "Форма отправки",
+    "description": "",
+    "time": "",
+    "linkSite": "",
+    "linkCode": "",
+    "technologies": [""]
+  },
+  "project10": {
+    "name": "Сертификат \"Основы HTML и CSS\"",
+    "description": "",
+    "time": "",
+    "linkSite": "",
+    "linkCode": "",
+    "technologies": [""]
+  },
+  "project11": {
+    "name": "Сертификат \"Основы HTML и CSS\"",
+    "description": "",
+    "time": "",
+    "linkSite": "",
+    "linkCode": "",
+    "technologies": [""]
+  },
+  "project12": {
+    "name": "Сертификат \"JavaScript, часть 1: основы и функции\"",
+    "description": "",
+    "time": "",
+    "linkSite": "",
+    "linkCode": "",
+    "technologies": [""]
+  },
+  "project13": {
+    "name": "Сертификат за участие в YAC",
+    "description": "",
+    "time": "",
+    "linkSite": "",
+    "linkCode": "",
+    "technologies": [""]
+  }
+  
+}

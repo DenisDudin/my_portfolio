@@ -4,13 +4,14 @@
   position: relative;
   width: 100%;
   min-height: 100vh;
+  background: #fff;
 }
 
 .home_img {
   position: absolute;
   top: 0;
   left: 0;
-  width: 550px;
+  width: 650px;
   height: 100%;
 }
 
@@ -31,7 +32,7 @@
   padding: 100px;
   top: 0;
   right: 0;
-  width: calc(100% - 550px);
+  width: calc(100% - 650px);
   height: 100%;
 }
 
@@ -66,8 +67,9 @@
 }
 
 .home_content p {
+  width: 70%;
   font-size: 1.1em;
-  margin: 20px 0;
+  margin: 20px 0 40px;
   font-weight: 300;
   text-align: justify;
 }
@@ -89,6 +91,20 @@
   background: #000;
   color: #00bcd4;
   border: 6px solid #000;
+}
+
+@media (max-width: 1500px) {
+  .home_img {
+    width: 550px;
+  }
+
+  .home_content {
+    width: calc(100% - 550px);
+  }
+
+  .home_content p {
+    width: 100%;
+  }
 }
 
 @media (max-width: 991px) {

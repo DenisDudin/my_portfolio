@@ -2,6 +2,7 @@ import avatar from '../img/avatar.png'
 import vk from '../img/vk.svg';
 import telegram from '../img/telegram.svg';
 import linkedin from '../img/linkedin.svg';
+import git from '../img/git.svg';
 
 function HoverCard() {
   return (
@@ -37,6 +38,11 @@ function HoverCard() {
         <div>
           <a href="#">
             <img src={telegram} />
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <img src={git} />
           </a>
         </div>
       </div>

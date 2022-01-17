@@ -1,7 +1,7 @@
 function Experience() {
   return <section className="experience" id="experience">
     <div className="experience_title title">
-      <h2>Experience</h2>
+      <h2>Опыт</h2>
     </div>
     <div className="experience_content">
       <div className="experience_left side">

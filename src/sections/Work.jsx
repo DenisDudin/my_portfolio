@@ -1,8 +1,8 @@
 function Work() {
   return <section className="work" id="work">
     <div className="work_title title">
-      <h2>Work</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus aspernatur reprehenderit, vero dolor vel delectus magnam laudantium modi culpa velit minus!</p>
+      <h2>Работа</h2>
+      <p>В разделе представлены разработанные веб-приложения и полученные сертификаты</p>
     </div>
     <div className="work_content">
       <div className="work_box">
