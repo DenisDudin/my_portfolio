@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import photoAbout from '../img/photo-about.jpg';
 
 function About() {
