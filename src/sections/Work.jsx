@@ -1,3 +1,8 @@
+import courseraJS1 from '../img/works/coursera(js1).jpg'
+import courseraJS2 from '../img/works/coursera(js2).jpg'
+import courseraWeb from '../img/works/coursera(web).jpg'
+import fccJS from '../img/works/freeCodeCamp(js).jpg'
+
 function Work() {
   return <section className="work" id="work">
     <div className="work_title title">
@@ -5,46 +10,70 @@ function Work() {
       <p>В разделе представлены разработанные веб-приложения и полученные сертификаты</p>
     </div>
     <div className="work_content">
-      <div className="work_box">
-        <div className="work_image">
-          <img src="http://dummyimage.com/300x250/00dd00" />
+      <div class="work_box">
+        <div class="work_img">
+          <img src={courseraJS1} alt="ballons" />
         </div>
-        <div className="work_text">
-          <h3>Project 01</h3>
-        </div>
-      </div>
-      <div className="work_box">
-        <div className="work_image">
-          <img src="http://dummyimage.com/300x250/00dd00" />
-        </div>
-        <div className="work_text">
-          <h3>Project 02</h3>
-        </div>
-      </div>
-      <div className="work_box">
-        <div className="work_image">
-          <img src="http://dummyimage.com/300x250/00dd00" />
-        </div>
-        <div className="work_text">
-          <h3>Project 03</h3>
+        <div class="work_description">
+          <span class="tag tag-purple">Popular</span>
+          <h4>
+            How to Keep Going When You Don’t Know What’s Next
+          </h4>
+          <p>
+            The future can be scary, but there are ways to
+            deal with that fear.
+          </p>
         </div>
       </div>
-      <div className="work_box">
-        <div className="work_image">
-          <img src="http://dummyimage.com/300x250/00dd00" />
+
+      <div class="work_box">
+        <div class="work_img">
+          <img src={courseraJS2} alt="ballons" />
         </div>
-        <div className="work_text">
-          <h3>Project 04</h3>
+        <div class="work_description">
+          <span class="tag tag-purple">Popular</span>
+          <h4>
+            How to Keep Going When You Don’t Know What’s Next
+          </h4>
+          <p>
+            The future can be scary, but there are ways to
+            deal with that fear.
+          </p>
         </div>
       </div>
-      <div className="work_box">
-        <div className="work_image">
-          <img src="http://dummyimage.com/300x250/00dd00" />
+
+      <div class="work_box">
+        <div class="work_img">
+          <img src={courseraWeb} alt="ballons" />
         </div>
-        <div className="work_text">
-          <h3>Project 05</h3>
+        <div class="work_description">
+          <span class="tag tag-purple">Popular</span>
+          <h4>
+            How to Keep Going When You Don’t Know What’s Next
+          </h4>
+          <p>
+            The future can be scary, but there are ways to
+            deal with that fear.
+          </p>
         </div>
       </div>
+
+      <div class="work_box">
+        <div class="work_img">
+          <img src={fccJS} alt="ballons" />
+        </div>
+        <div class="work_description">
+          <span class="tag tag-purple">Popular</span>
+          <h4>
+            How to Keep Going When You Don’t Know What’s Next
+          </h4>
+          <p>
+            The future can be scary, but there are ways to
+            deal with that fear.
+          </p>
+        </div>
+      </div>
+      
     </div>
   </section>
 }
