@@ -1,3 +1,5 @@
+import Menu from './Menu';
+
 function toggleMenu() {
   const menuToggle = document.querySelector('.toggle');
   const sidebar = document.querySelector('.sidebar');
@@ -6,12 +8,17 @@ function toggleMenu() {
 }
 
 function Toggle() { 
-  return <div className="toggle" onClick={toggleMenu}>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
+  return (
+    <>
+      <Menu handleMenu={toggleMenu} />
+      <div className="toggle" onClick={toggleMenu}>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </>
+  )
 }
 
 export { Toggle }

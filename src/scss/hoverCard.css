@@ -12,7 +12,10 @@
   box-shadow: 0 0 10px 2px #00bcd4;
   overflow: hidden;
   transition: all ease 0.4s;
+  display: none;
   z-index: 99; }
+  .card.card.wow {
+    display: block; }
   .card:hover {
     border-top: 5px solid #00bcd4;
     border-bottom: 5px solid #00bcd4;

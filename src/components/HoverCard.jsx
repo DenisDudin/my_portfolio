@@ -5,8 +5,9 @@ import linkedin from '../img/linkedin.svg';
 import git from '../img/git.svg';
 
 function HoverCard() {
+  
   return (
-    <aside className="card" id="card">
+    <aside className="card" id="card" >
       <header className="card_header">
         <a href="#">
           <img src={avatar} />

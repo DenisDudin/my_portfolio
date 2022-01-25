@@ -1,15 +1,12 @@
-import { Toggle } from "./Toggle"
-
-function Menu() {
+export default function Menu(props) {
+  const {handleMenu} = props
   return <div className="sidebar">
     <ul className="menu">
-      <li><a href="#home" onClick={Toggle.toggleMenu}>Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#work">Work</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#home" onClick={handleMenu}>Приветствие</a></li>
+      <li><a href="#about" onClick={handleMenu}>Обо мне</a></li>
+      <li><a href="#experience" onClick={handleMenu}>Опыт</a></li>
+      <li><a href="#work" onClick={handleMenu}>Работы</a></li>
+      <li><a href="#contact" onClick={handleMenu}>Контакт</a></li>
     </ul>
   </div>
 }
-
-export { Menu }

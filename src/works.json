@@ -1,107 +1,195 @@
 {
-  "project1": {
+  "result": true,
+  "projects": [
+  {
+    "id": "1",
+    "linkImage":"project01",
     "name": "Кулинарный сайт",
-    "description": "SPA приложение с кулинарными рецептами. ",
-    "time": "",
-    "linkSite": "",
-    "linkCode": "",
-    "technologies": [""]
+    "description": "SPA приложение с кулинарными рецептами. Сайт содержит несколько страниц, а также реализован поиск по категориям",
+    "date": "04.01.2022",
+    "linkSite": "https://denisdudin.github.io/culinary-website/",
+    "linkCode": "https://github.com/DenisDudin/culinary-website",
+    "technologies": [
+      {"idTech": "d", "technology":"HTML"},
+      {"idTech": "c", "technology":"CSS"},
+      {"idTech": "b", "technology":"JavaScript"},
+      {"idTech": "a", "technology":"React"}
+    ]
   },
-  "project2": {
+  {
+    "id": "2",
+    "linkImage":"project02",
     "name": "Игровой магазин",
-    "description": "",
-    "time": "",
-    "linkSite": "",
-    "linkCode": "",
-    "technologies": [""]
+    "description": "Магазин, содержащий актуальные товары из игры Fortnite. Реализована карзина товаров.",
+    "date": "26.12.2021",
+    "linkSite": "https://denisdudin.github.io/Fornite-shop/",
+    "linkCode": "https://github.com/DenisDudin/Fornite-shop",
+    "technologies": [
+      {"idTech": "d", "technology":"HTML"},
+      {"idTech": "c", "technology":"CSS"},
+      {"idTech": "b", "technology":"JavaScript"},
+      {"idTech": "a", "technology":"React"}
+    ]
   },
-  "project3": {
+  {
+    "id": "3",
+    "linkImage":"project03",
     "name": "Киносайт",
-    "description": "",
-    "time": "",
-    "linkSite": "",
-    "linkCode": "",
-    "technologies": [""]
+    "description": "Каталог фильмов и сериалов, с возможностью фильтра требующегося контента и поиска по каталогу.",
+    "date": "11.12.2021",
+    "linkSite": "https://denisdudin.github.io/Kinosearch-react-movies-/",
+    "linkCode": "https://github.com/DenisDudin/Kinosearch-react-movies-",
+    "technologies": [
+      {"idTech": "d", "technology":"HTML"},
+      {"idTech": "c", "technology":"CSS"},
+      {"idTech": "b", "technology":"JavaScript"},
+      {"idTech": "a", "technology":"React"}
+    ]
   },
-  "project4": {
+  {
+    "id": "4",
+    "linkImage":"project04",
     "name": "Кликер",
-    "description": "",
-    "time": "",
-    "linkSite": "",
-    "linkCode": "",
-    "technologies": [""]
+    "description": "Игра, в которой за определенный промежуток времени нужно попасть по как можно большему числу целей.",
+    "date": "10.11.2021",
+    "linkSite": "https://codepen.io/denisdudin/pen/JjrQGPb",
+    "linkCode": "https://github.com/DenisDudin/freeCodeCamp/tree/master/js%20test7",
+    "technologies": [
+      {"idTech": "d", "technology":"HTML"},
+      {"idTech": "c", "technology":"CSS"},
+      {"idTech": "b", "technology":"JavaScript"}
+    ]
   },
-  "project5": {
-    "name": "Hover board",
-    "description": "",
-    "time": "",
-    "linkSite": "",
-    "linkCode": "",
-    "technologies": [""]
+  {
+    "id": "5",
+    "linkImage":"project05",
+    "name": "Цветная доска",
+    "description": "Доска, коорая генерируется при помощи js кода. Поверхность состоит из маленьких квадратиков, при наведении на которые они загораются и со временем гаснут.",
+    "date": "08.11.2021",
+    "linkSite": "https://codepen.io/denisdudin/pen/bGoPEdO",
+    "linkCode": "https://github.com/DenisDudin/freeCodeCamp/tree/master/js%20test6",
+    "technologies": [
+      {"idTech": "d", "technology":"HTML"},
+      {"idTech": "c", "technology":"CSS"},
+      {"idTech": "b", "technology":"JavaScript"}
+    ]
   },
-  "project6": {
+  {
+    "id": "6",
+    "linkImage":"project06",
     "name": "Галерея с фильмами",
-    "description": "",
-    "time": "",
-    "linkSite": "",
-    "linkCode": "",
-    "technologies": [""]
+    "description": "Галерея, написанная с использованием JavaScript.",
+    "date": "07.11.2021",
+    "linkSite": "https://codepen.io/denisdudin/pen/NWaZxrJ",
+    "linkCode": "https://github.com/DenisDudin/freeCodeCamp/tree/master/js%20test5",
+    "technologies": [
+      {"idTech": "d", "technology":"HTML"},
+      {"idTech": "c", "technology":"CSS"},
+      {"idTech": "b", "technology":"JavaScript"}
+    ]
   },
-  "project7": {
+  {
+    "id": "7",
+    "linkImage":"project07",
     "name": "Менеджер задач",
-    "description": "",
-    "time": "",
-    "linkSite": "",
-    "linkCode": "",
-    "technologies": [""]
+    "description": "Менеджер задач, в кором реализована возможность захвата и перетаскивания элемента.",
+    "date": "06.11.2021",
+    "linkSite": "https://codepen.io/denisdudin/pen/poWXgeo",
+    "linkCode": "https://github.com/DenisDudin/freeCodeCamp/tree/master/js%20test4",
+    "technologies": [
+      {"idTech": "d", "technology":"HTML"},
+      {"idTech": "c", "technology":"CSS"},
+      {"idTech": "b", "technology":"JavaScript"}
+    ]
   },
-  "project8": {
-    "name": "Галерея",
-    "description": "",
-    "time": "",
-    "linkSite": "",
-    "linkCode": "",
-    "technologies": [""]
+  {
+    "id": "8",
+    "linkImage":"project08",
+    "name": "Простая галерея",
+    "description": "Галерея с несколькими изображениями и анимацией при выборе элемента.",
+    "date": "05.11.2021",
+    "linkSite": "https://codepen.io/denisdudin/pen/OJxeMmr",
+    "linkCode": "https://github.com/DenisDudin/freeCodeCamp/tree/master/js%20test3",
+    "technologies": [
+      {"idTech": "d", "technology":"HTML"},
+      {"idTech": "c", "technology":"CSS"},
+      {"idTech": "b", "technology":"JavaScript"}
+    ]
   },
-  "project9": {
+  {
+    "id": "9",
+    "linkImage":"project09",
     "name": "Форма отправки",
-    "description": "",
-    "time": "",
-    "linkSite": "",
-    "linkCode": "",
-    "technologies": [""]
+    "description": "Небольшой сайт, представляющий собой форму для заполнения и отправки на сервер. Учтены проверки при заполнении полей.",
+    "date": "12.09.2021",
+    "linkSite": "https://codepen.io/denisdudin/pen/xxrRrbW",
+    "linkCode": "https://github.com/DenisDudin/freeCodeCamp/tree/master/html%20test2",
+    "technologies": [
+      {"idTech": "d", "technology":"HTML"},
+      {"idTech": "c", "technology":"CSS"}
+    ]
   },
-  "project10": {
+  {
+    "id": "10",
+    "linkImage":"project10",
     "name": "Сертификат \"Основы HTML и CSS\"",
-    "description": "",
-    "time": "",
-    "linkSite": "",
+    "description": "Курс от МФТИ и Яндекса по HTML и CSS. Курс содержит информацию по основам HTML, а также о переходах и различной анимации с использованием CSS.",
+    "date": "11.10.2020",
+    "linkSite": "https://coursera.org/share/ac2d0c4e0b27e484bb7eac0dcb8dce01",
     "linkCode": "",
-    "technologies": [""]
+    "technologies": [
+      {"idTech": "d", "technology":"HTML"},
+      {"idTech": "c", "technology":"CSS"}
+    ]
   },
-  "project11": {
-    "name": "Сертификат \"Основы HTML и CSS\"",
-    "description": "",
-    "time": "",
-    "linkSite": "",
-    "linkCode": "",
-    "technologies": [""]
-  },
-  "project12": {
+  {
+    "id": "11",
+    "linkImage":"project11",
     "name": "Сертификат \"JavaScript, часть 1: основы и функции\"",
-    "description": "",
-    "time": "",
-    "linkSite": "",
+    "description": "Курс от МФТИ и Яндекса по JavaScript. В программе курса были затронуты основы языка, функции и контекст исполнения",
+    "date": "29.07.2021",
+    "linkSite": "https://coursera.org/share/8e36e709ac13976950cf8d2381205a4e",
     "linkCode": "",
-    "technologies": [""]
+    "technologies": [
+      {"idTech": "b", "technology":"JavaScript"}
+    ]
   },
-  "project13": {
-    "name": "Сертификат за участие в YAC",
-    "description": "",
-    "time": "",
-    "linkSite": "",
+  {
+    "id": "12",
+    "linkImage":"project12",
+    "name": "Сертификат \"JavaScript, часть 2: прототипы и асинхронность\"",
+    "description": "Курс от МФТИ и Яндекса по JavaScript. В рамках курса были рассмотрены прототипы, конструкторы, промисы, а также взаимодействие с DOM деревом и др.",
+    "date": "17.12.2021",
+    "linkSite": "https://coursera.org/share/047266aadfc3cf19c61cf9c8496aba49",
     "linkCode": "",
-    "technologies": [""]
+    "technologies": [
+      {"idTech": "b", "technology":"JavaScript"}
+    ]
+  },
+  {
+    "id": "13",
+    "linkImage":"project13",
+    "name": "Сертификат \"Responsive Web Design\"",
+    "description": "Курс посвящен глубокому изучению HTML и CSS. Много практических задач, посвященных CSS Flexbox, CSS Grid и адаптивному дизайну.",
+    "date": "09.09.2021",
+    "linkSite": "https://freecodecamp.org/certification/fcc186fb9c9-506b-4bed-9b81-bae9afab4c83/responsive-web-design",
+    "linkCode": "",
+    "technologies": [
+      {"idTech": "d", "technology":"HTML"},
+      {"idTech": "c", "technology":"CSS"}
+    ]
+  },
+  {
+    "id": "14",
+    "linkImage":"project14",
+    "name": "Сертификат \"JavaScript Algorithms and Data Structures\"",
+    "description": "Курс охватывает большинство тем по JavaScript. Рассмотрен ES6, регулярные выражения, структуры данных, а также ООП и функциональное программирование.",
+    "date": "15.10.2021",
+    "linkSite": "https://freecodecamp.org/certification/fcc186fb9c9-506b-4bed-9b81-bae9afab4c83/javascript-algorithms-and-data-structures",
+    "linkCode": "",
+    "technologies": [
+      {"idTech": "b", "technology":"JavaScript"}
+    ]
   }
-  
+  ]
 }

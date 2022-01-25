@@ -5,6 +5,8 @@ import linkedin from '../img/linkedin.svg';
 import git from '../img/git.svg';
 import {SocialNetwork} from '../components/SocialNetwork'
 
+
+
 function Home() {
   return (
     <section className="home" id="home">

@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'animate.css'
 import './index.css';
 import { Toggle } from './components/Toggle';
 import { HoverCard } from './components/HoverCard';
@@ -16,7 +17,6 @@ ReactDOM.render(
     <HoverCard />
     <Toggle />
     <Home />
-    <Menu />
     <About />
     <Experience />
     <Work />

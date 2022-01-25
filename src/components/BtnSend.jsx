@@ -1,7 +1,31 @@
 import { gsap } from "gsap";
 
+// document.addEventListener("DOMContentLoaded", function () {
+//   const form = 
+// })
 
-function handleButtonClick() {
+// function formSend(e,props){
+//   const form = document.getElementById('form')
+//   e.preventDefault();
+//   let response = fetch('sendmail.php', {
+//     method: 'POST',
+//     body: props
+//   });
+//   if (response.ok) {
+//     form.reset();
+//   }
+
+// }
+
+
+function valid(props) {
+  const {firstName, lastName, email, phone, message} = props;
+
+}
+
+
+function handleButtonClick(){
+
   let timeLine = new gsap.timeline({
     paused: false
   });
@@ -48,10 +72,11 @@ function handleButtonClick() {
 function BtnSend() {
   return <>
     <p className="contact_thank">Спасибо!</p>
-    <div className="button-send" onClick={handleButtonClick}>
+    <button className="button-send" type="submit">
       <p>Отправить</p>
-    </div>
+    </button>
   </>
+  
 }
 
 export { BtnSend }

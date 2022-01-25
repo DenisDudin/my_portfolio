@@ -67,6 +67,18 @@
   margin-top: 30px;
 }
 
+input:invalid:not(:placeholder-shown),
+textarea:valid:not(:placeholder-shown) {
+  border: 1px solid rgb(105, 15, 15);
+  border-radius: 5px;
+}
+
+input:valid:not(:placeholder-shown),
+textarea:valid:not(:placeholder-shown) {
+  border: 1px solid rgb(35, 90, 13);
+  border-radius: 5px;
+}
+
 @media (max-width: 991px) {
     .contact_form {
       width: 100%;
