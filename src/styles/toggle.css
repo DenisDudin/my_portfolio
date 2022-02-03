@@ -19,7 +19,7 @@
   border-radius: 9px;
   left: 0;
   transform: rotate(0deg);
-  transition: .25s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 .toggle span:nth-child(1) {

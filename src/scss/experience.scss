@@ -39,10 +39,9 @@ $top_indent: 30px;
   }
 
   .experience_place {
-      font-weight: 400;
-      font-style: italic;
-    }
-
+    font-weight: 400;
+    font-style: italic;
+  }
 }
 
 .experience_skills {
@@ -51,7 +50,6 @@ $top_indent: 30px;
     list-style-type: none;
   }
 }
-
 
 @media (max-width: 991px) {
   .side {

@@ -1,60 +1,60 @@
 @import './variable.scss';
 
 .contact_thank {
-	opacity: 0;
-	color: $turquoise;
-	text-transform: uppercase;
-	font-weight: 600;
-	font-size: 1.5em;
+  opacity: 0;
+  color: $turquoise;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.5em;
 }
 
 .button-send {
-	position: absolute;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-	width: $btn-w;
-	height: $btn-h;
+  width: $btn-w;
+  height: $btn-h;
 
-	border: 1px solid $turquoise;
-	border-radius: 3px;
-	opacity: 1;
-	transition: all 0.2s ease;
-	line-height: 30px;
-	perspective: 100px;
-	transform-style: preserve-3d;
-	perspective-origin: 49% 50%;
+  border: 1px solid $turquoise;
+  border-radius: 3px;
+  opacity: 1;
+  transition: all 0.2s ease;
+  line-height: 30px;
+  perspective: 100px;
+  transform-style: preserve-3d;
+  perspective-origin: 49% 50%;
 
-	text-transform: uppercase;
-	font-size: 1.3em;
-	font-weight: 600;
-	color: #fff;
-	background: $turquoise;
-	cursor: pointer;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #fff;
+  background: $turquoise;
+  cursor: pointer;
 
-	&:hover {
-		box-shadow: 1px 1px 5px $gray, -1px -1px 5px $gray;
-	}
+  &:hover {
+    box-shadow: 1px 1px 5px $gray, -1px -1px 5px $gray;
+  }
 
-	p {
-		transition: all 0.2s ease;
-		user-select: none;
-		line-height: 33px;
-		position: absolute;
-	}
+  p {
+    transition: all 0.2s ease;
+    user-select: none;
+    line-height: 33px;
+    position: absolute;
+  }
 }
 
 @keyframes blink {
-	0% {
-		opacity: 1;
-	}
+  0% {
+    opacity: 1;
+  }
 
-	50% {
-		opacity: 0.2;
-	}
+  50% {
+    opacity: 0.2;
+  }
 
-	100% {
-		opacity: 1;
-	}
+  100% {
+    opacity: 1;
+  }
 }

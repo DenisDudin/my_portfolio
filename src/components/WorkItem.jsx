@@ -42,8 +42,12 @@ function WorkItem(props) {
 
   return (
     <div className="work_box">
-      <div className="work_img">
-        <img src={imgProject} alt="work image" />
+      <div className="work_img shine">
+        <figure>
+          <a href={linkSite} target="_blank">
+            <img src={imgProject} alt="work image" />
+          </a>
+        </figure>
       </div>
       <div className="work_description">
         <div className="work_tags">
@@ -52,7 +56,9 @@ function WorkItem(props) {
 
         <h4>{name}</h4>
 
-        <div className="work_date">{date}</div>
+        <div className="work_date">
+          <span>{date}</span>
+        </div>
 
         <p>{description}</p>
       </div>
@@ -63,7 +69,7 @@ function WorkItem(props) {
           </a>
         </button>
         {linkCode ? (
-          <button className="work_code">
+          <button className="work_code ">
             <a href={linkCode} target="_blank">
               Код проекта
             </a>

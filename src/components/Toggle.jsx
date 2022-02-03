@@ -3,11 +3,11 @@ import Menu from './Menu';
 function toggleMenu() {
   const menuToggle = document.querySelector('.toggle');
   const sidebar = document.querySelector('.sidebar');
-  menuToggle.classList.toggle('active')
-  sidebar.classList.toggle('active')
+  menuToggle.classList.toggle('active');
+  sidebar.classList.toggle('active');
 }
 
-function Toggle() { 
+function Toggle() {
   return (
     <>
       <Menu handleMenu={toggleMenu} />
@@ -18,7 +18,7 @@ function Toggle() {
         <span></span>
       </div>
     </>
-  )
+  );
 }
 
-export { Toggle }
+export { Toggle };
