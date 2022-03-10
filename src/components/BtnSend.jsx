@@ -1,5 +1,5 @@
 import { gsap } from 'gsap';
-
+import $ from 'jquery';
 
 function handleButtonClick() {
   let timeLine = new gsap.timeline({
@@ -45,11 +45,40 @@ function handleButtonClick() {
     });
 }
 
-function BtnSend() {
+function BtnSend(props) {
+  
+
+  const handleClick = (e) => {
+    let chatid = "-637783358";
+    let token = "5158689723:AAEcnIN76WP_F8gJSUk4rbh0K97qKbLE4VY";
+    let firstName = document.getElementById('first-name').value;
+    let lastName = document.getElementById('last-name').value;
+    let email = document.getElementById('email').value;
+    let phone = document.getElementById('phone').value;
+    let message = document.getElementById('message').value;
+
+    let text = `Имя: ${firstName}\nФамилия: ${lastName}\nEmail: ${email}\nТелефон: ${phone}\nMsg ${message}`;
+
+    
+    if(firstName && email && message) {
+      let z=$.ajax({
+        type: "POST",  
+        url: "https://api.telegram.org/bot"+token+"/sendMessage?chat_id="+chatid,
+        data: "parse_mode=HTML&text="+encodeURIComponent(text), 
+        }); 
+      handleButtonClick()
+    } else {
+      alert("Введите, пожалуйста, ваше имя, почту и сообщение. Также можете указать номер телефона для связи.")
+    }
+    e.stopPropagation();
+    e.preventDefault();
+  }
+
+
   return (
     <>
       <p className="contact_thank">Спасибо!</p>
-      <button className="button-send" type="submit">
+      <button className="button-send" type="submit" onClick={handleClick}>
         <p>Отправить</p>
       </button>
     </>

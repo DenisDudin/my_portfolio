@@ -241,3 +241,14 @@
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
   100% {
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
+@media only screen and (max-width: 480px) {
+  .card {
+    top: 15px;
+    width: 60px;
+    height: 60px; }
+    .card img {
+      width: 40px;
+      height: 40px; }
+    .card:hover {
+      width: 280px;
+      height: 380px; } }

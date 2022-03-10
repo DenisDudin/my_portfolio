@@ -19,9 +19,8 @@ function HoverCard() {
   return (
     <aside className="card" id="card">
       <header className="card_header">
-        <a href="#">
-          <img src={avatar} />
-        </a>
+        <img src={avatar} />
+
         <h1>Denis Dudin</h1>
         <h2>- Web Developer -</h2>
       </header>
@@ -38,22 +37,22 @@ function HoverCard() {
 
       <div className="card_social-links">
         <div>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/denis-dudin-7b54a522a/" target="_blank">
             <img src={linkedin} />
           </a>
         </div>
         <div>
-          <a href="#">
+          <a href="https://vk.com/d0bry_den" target="_blank">
             <img src={vk} />
           </a>
         </div>
         <div>
-          <a href="#">
+          <a href="https://t.me/D0bryDen" target="_blank">
             <img src={telegram} />
           </a>
         </div>
         <div>
-          <a href="#">
+          <a href="https://github.com/DenisDudin" target="_blank">
             <img src={git} />
           </a>
         </div>

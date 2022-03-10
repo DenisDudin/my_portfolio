@@ -18,7 +18,7 @@ function Home() {
             <span>Привет!</span> Меня зовут
           </h4>
           <h2>Денис Дудин</h2>
-          <h4>Я Junior Frontend - developer</h4>
+          <h4 className="position">Я Junior Frontend - developer</h4>
           <p>
             Практикую написание сайтов с использованием React, повышаю
             доступность и понятность своего кода, изучаю сторонние библиотеки
@@ -33,10 +33,10 @@ function Home() {
           </a>
         </div>
         <ul className="home_social">
-          <SocialNetwork social_image={linkedin} />
-          <SocialNetwork social_image={vk} />
-          <SocialNetwork social_image={telegram} />
-          <SocialNetwork social_image={git} />
+          <SocialNetwork social_image={linkedin} social_link='https://www.linkedin.com/in/denis-dudin-7b54a522a/' target="_blank"/>
+          <SocialNetwork social_image={vk} social_link='https://vk.com/d0bry_den' target="_blank"/>
+          <SocialNetwork social_image={telegram} social_link='https://t.me/D0bryDen' target="_blank"/>
+          <SocialNetwork social_image={git} social_link='https://github.com/DenisDudin' target="_blank"/>
         </ul>
       </div>
     </section>

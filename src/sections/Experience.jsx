@@ -22,7 +22,7 @@ function Experience() {
 
           <div className="experience_box">
             <h4>2015 - 2019</h4>
-            <h3>БГТУ им. В.Г. Шухова</h3>
+            <h3>БГТУ им. Шухова</h3>
             <p>
               Бакалавриат.
               <br /> Факультет программного обеспечения вычислительной техники и
@@ -36,11 +36,11 @@ function Experience() {
           <div className="experience_skills">
             <h3>SKILLS </h3>
             <ul>
-              <li>Знания HTML5, CSS3, JavaScript</li>
-              <li>Работа с React</li>
-              <li>Использование Git</li>
-              <li>Знание алгоритмов и структур данных</li>
-              <li>Английский язык (Pre-intermidate)</li>
+              <li>Знания HTML5, CSS3, JavaScript ~</li>
+              <li>Работа с React ~</li>
+              <li>Использование Git ~</li>
+              <li>Знание алгоритмов и структур данных ~</li>
+              <li>Английский язык (Pre-intermidate) ~</li>
             </ul>
           </div>
         </div>
@@ -59,7 +59,7 @@ function Experience() {
                 компаниями;
               </li>
               <li>
-                Работа с рекламными площадками, их настройка и и раскрутка
+                Работа с рекламными площадками, их настройка и раскрутка
                 товара.
               </li>
             </ul>

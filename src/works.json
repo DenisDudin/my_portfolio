@@ -138,8 +138,7 @@
     "linkSite": "https://coursera.org/share/ac2d0c4e0b27e484bb7eac0dcb8dce01",
     "linkCode": "",
     "technologies": [
-      {"idTech": "d", "technology":"HTML"},
-      {"idTech": "c", "technology":"CSS"}
+      {"idTech": "e", "technology":"Certificate"}
     ]
   },
   {
@@ -151,7 +150,7 @@
     "linkSite": "https://coursera.org/share/8e36e709ac13976950cf8d2381205a4e",
     "linkCode": "",
     "technologies": [
-      {"idTech": "b", "technology":"JavaScript"}
+      {"idTech": "e", "technology":"Certificate"}
     ]
   },
   {
@@ -163,7 +162,7 @@
     "linkSite": "https://coursera.org/share/047266aadfc3cf19c61cf9c8496aba49",
     "linkCode": "",
     "technologies": [
-      {"idTech": "b", "technology":"JavaScript"}
+      {"idTech": "e", "technology":"Certificate"}
     ]
   },
   {
@@ -175,8 +174,7 @@
     "linkSite": "https://freecodecamp.org/certification/fcc186fb9c9-506b-4bed-9b81-bae9afab4c83/responsive-web-design",
     "linkCode": "",
     "technologies": [
-      {"idTech": "d", "technology":"HTML"},
-      {"idTech": "c", "technology":"CSS"}
+      {"idTech": "e", "technology":"Certificate"}
     ]
   },
   {
@@ -188,7 +186,7 @@
     "linkSite": "https://freecodecamp.org/certification/fcc186fb9c9-506b-4bed-9b81-bae9afab4c83/javascript-algorithms-and-data-structures",
     "linkCode": "",
     "technologies": [
-      {"idTech": "b", "technology":"JavaScript"}
+      {"idTech": "e", "technology":"Certificate"}
     ]
   }
   ]

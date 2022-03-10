@@ -7,7 +7,7 @@ class Work extends React.Component {
     super(props);
     this.dataWorks = Object.entries(JSON.parse(JSON.stringify(works)))[1][1];
     this.technology = document.getElementById('all');
-    this.workTags = ['all', 'react', 'javascript', 'html', 'css'];
+    this.workTags = ['all', 'react', 'javascript', 'html', 'css', 'certificate'];
   }
 
   state = {
@@ -34,7 +34,7 @@ class Work extends React.Component {
     });
   };
 
-  componentDidUpdate(prevState) {}
+  // componentDidUpdate(prevState) {}
 
   render() {
     const { filterWorks } = this.state;
@@ -51,7 +51,7 @@ class Work extends React.Component {
 
         <ul className="work_technologies">
           {this.workTags.map((tag) => (
-            <li>
+              <li>
               <button id={tag} onClick={() => this.handleFilter(tag)}>
                 {tag}
               </button>

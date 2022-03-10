@@ -9,6 +9,7 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
+  flex-wrap: wrap;
   margin: 25px 0 5px;
 
   & li{
@@ -38,6 +39,7 @@
     text-transform: uppercase;
     font-weight: 600;
     font-size: 22px;
+    text-shadow: 1px 1px 3px #aaa;
     cursor: pointer;
 
     &:hover {
@@ -155,7 +157,7 @@ background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%);
   margin: 10px 20px 15px 20px;
 
   & button {
-    padding: 10px 20px;
+    padding: 3% 6%;
     text-decoration: none;
     font-weight: 700;
     letter-spacing: 1.5px;
@@ -218,8 +220,52 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
 	}
 }
 
-@media (max-width: 991px) {
+@media only screen and (max-width: 995px) {
+  .work_box {
+    width: 390px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
   .work_box {
     width: 450px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .work_technologies {
+    margin: 0 10px;
+  }
+
+  .work_description {
+    padding-bottom: 0;
+    min-height: 100px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .work_content {
+    margin-top: 20px;
+  }
+
+  .work_img img {
+    height: 200px;
+  }
+
+  .work_box {
+    margin: 10px 0;
+    width: 300px;
+
+    & span{
+      font-size: 10px;
+    }
+
+    & p {
+      font-size: 13px;
+    }
+  }
+
+  .work_links a{
+    font-size: 12px;
   }
 }

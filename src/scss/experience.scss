@@ -1,12 +1,25 @@
+@import './variable.scss';
 $top_indent: 30px;
+
+.experience {
+  padding: 100px 0 0;
+  background-color: #fff;
+}
+
+.experience_title {
+  margin-bottom: 50px;
+}
 
 .experience_content {
   display: flex;
   justify-content: center;
+  margin: 60px;
+  text-shadow: 1px 1px 3px #aaa;
 
   h2 {
     margin-bottom: 30px;
     letter-spacing: 1px;
+    color: $turquoise;
   }
 
   h4 {
@@ -27,7 +40,7 @@ $top_indent: 30px;
 .experience_left {
   text-align: right;
   padding-right: 40px;
-  border-right: 1px solid #000;
+  border-right: 1px solid $turquoise;
 }
 
 .experience_right {
@@ -51,8 +64,37 @@ $top_indent: 30px;
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1500px) {
+}
+
+@media (max-width: 995px) {
   .side {
     width: 45%;
   }
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 480px) {
+  .side {
+    width: 65%;
+  }
+
+  .experience_content {
+    & p{
+      font-size: 16 ;
+    }
+  }
+
+  .experience_left {
+    padding-right: 20px;
+  }
+  
+  .experience_right {
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
 }
